@@ -9,4 +9,59 @@ html {
 body {
   margin: 0;
   min-height: 100%;
+  background-color: slategray;
+}
+
+div {
+  width: 6rem;
+  height: 6rem;
+  background-color: lightskyblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  border: 1px solid black;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.row-1,
+.row-2,
+.row-3,
+.row-4 {
+  display: flex;
+}
+
+.display {
+  width: 23rem;
+  height: 6rem;
+  background-color: lightgreen;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 40px;
+  padding-right: 1rem;
+  border: 4px solid black;
+  font-family: 'Orbitron', sans-serif;
+}
+
+.clear {
+  width: 6rem;
+  background-color: lightcoral;
+  font-size: 28px;
+}
+.subtract,
+.multiply,
+.divide,
+.add {
+  background-color: lightyellow;
+}
+
+.equals {
+  background-color: lightpink;
 }
